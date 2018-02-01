@@ -1,0 +1,44 @@
+  
+ul{
+    margin: 10%;
+    border-radius: 10%;
+  }
+
+li{
+    padding: 20px;
+    list-style-type: none;
+    width: 25%;
+    height: 250px;
+    float: left;
+    margin: 0.1%;
+    font-size: 150px;
+    $elements : 10;
+    @for $i from 1 to $elements {
+        &:nth-child(#{$i}){
+            background-color: blue;            
+            @if $i % 2 == 1 {
+                background-color: black;
+                color: pink;
+            }@else{
+                background-color: pink;
+                color:black;
+            }
+            &:before{
+                content: "" + $i;
+                margin: 40%;
+            }
+
+            @if $i == 1 {
+                border-top-left-radius: 30%;
+            } @else if $i == 3{
+                border-top-right-radius: 30%;
+            }@else if $i == 7{
+                border-bottom-left-radius: 30%;
+            }@else if $i == 9{
+                border-bottom-right-radius: 30%;
+            }
+    
+            }
+        }
+    }
+        

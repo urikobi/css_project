@@ -1,0 +1,118 @@
+ul {
+  margin: 10%;
+  border-radius: 10%;
+}
+
+li {
+  padding: 20px;
+  list-style-type: none;
+  width: 25%;
+  height: 250px;
+  float: left;
+  margin: 0.1%;
+  font-size: 150px;
+}
+
+li:nth-child(1) {
+  background-color: blue;
+  background-color: black;
+  color: pink;
+  border-top-left-radius: 30%;
+}
+
+li:nth-child(1):before {
+  content: "1";
+  margin: 40%;
+}
+
+li:nth-child(2) {
+  background-color: blue;
+  background-color: pink;
+  color: black;
+}
+
+li:nth-child(2):before {
+  content: "2";
+  margin: 40%;
+}
+
+li:nth-child(3) {
+  background-color: blue;
+  background-color: black;
+  color: pink;
+  border-top-right-radius: 30%;
+}
+
+li:nth-child(3):before {
+  content: "3";
+  margin: 40%;
+}
+
+li:nth-child(4) {
+  background-color: blue;
+  background-color: pink;
+  color: black;
+}
+
+li:nth-child(4):before {
+  content: "4";
+  margin: 40%;
+}
+
+li:nth-child(5) {
+  background-color: blue;
+  background-color: black;
+  color: pink;
+}
+
+li:nth-child(5):before {
+  content: "5";
+  margin: 40%;
+}
+
+li:nth-child(6) {
+  background-color: blue;
+  background-color: pink;
+  color: black;
+}
+
+li:nth-child(6):before {
+  content: "6";
+  margin: 40%;
+}
+
+li:nth-child(7) {
+  background-color: blue;
+  background-color: black;
+  color: pink;
+  border-bottom-left-radius: 30%;
+}
+
+li:nth-child(7):before {
+  content: "7";
+  margin: 40%;
+}
+
+li:nth-child(8) {
+  background-color: blue;
+  background-color: pink;
+  color: black;
+}
+
+li:nth-child(8):before {
+  content: "8";
+  margin: 40%;
+}
+
+li:nth-child(9) {
+  background-color: blue;
+  background-color: black;
+  color: pink;
+  border-bottom-right-radius: 30%;
+}
+
+li:nth-child(9):before {
+  content: "9";
+  margin: 40%;
+}
+/*# sourceMappingURL=style.css.map */
